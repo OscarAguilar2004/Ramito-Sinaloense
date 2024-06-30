@@ -1,0 +1,1582 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: rgb(46, 11, 11);
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .container{
+    max-width: 1224px;
+    width: 92%;
+    margin: 0 auto;
+  }
+
+  #About{
+    background-color: rgb(46, 11, 11);
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .Size{
+    
+    width: 250px;
+  }
+
+  .Size2{
+  
+    width: 250px;
+  }
+
+  .Cart-Container{
+    flex-direction: column;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    width: 300px;
+    background-color: black;
+    color: white;
+    box-shadow: -5px 0 5px rgba(0,0,0, 0.25);
+  }
+
+  #ShoppingCart:Checked ~ .Cart-Container{
+    display: flex;
+  }
+
+
+  header{
+    background-color: rgb(46, 11, 11);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    width: 100%;
+  }
+
+  .Custom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(46, 11, 11);
+    color: white;
+    padding: 25px;
+    margin: 25px;
+}
+
+  .Logo{
+    padding: 20px;
+    background-color: rgb(46, 11, 11);
+  }
+
+  .Desc{
+    background-color: rgb(46, 11, 11);
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    width: 95%;
+
+  }
+
+
+  .Main-Box{
+    padding-top: 30px;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+    margin-left: 10px;
+  }
+
+  #Left{
+    width: 500px;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: start;
+    flex-direction: column !important;
+    line-height: 30px;
+  }
+
+
+
+  #Right{
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column !important;
+  }
+
+  .Main-Box > h1{
+    font-size: 35px;
+  }
+
+  .Main-Box > p{
+    font-size: 15px;
+  }
+
+
+
+
+
+
+  .Image{
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /*start gemini code */
+
+  .centered-content {
+
+    text-align: center;
+    padding: 20px; /* Adjust padding as needed */
+    margin: 0 auto; /* Center horizontally */
+    max-width: 800px; /* Set a maximum width */
+  }
+  
+  .background-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    filter: grayscale(0.4) blur(2px); /* Add a dark tint (adjust value for darkness) */
+    z-index: -3; /* Place image behind content */
+  }
+
+  .content2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-wrapper {
+    color: white; /* Text color for contrast with dark image */
+  }
+  
+
+  /* end gemini code */
+  
+  .navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Rose{
+    padding-bottom: 10px;
+  }
+  
+  .nav-branding{
+    font-size: 20px;
+    margin: 25px;
+    width: 300px;
+  }
+
+
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+  
+  .nav-link{
+    transition: 0.3s ease-out;
+    margin-right: 50px;
+  }
+  
+  .nav-link:hover{
+    color: rgb(255, 179, 0);
+  }
+  
+  .hamburger{
+    display: none;
+    cursor: pointer;
+  }
+  
+  .bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: white;
+  }
+
+  .container2{
+    background-color: rgba(0, 0, 0, 0.5); 
+  }
+
+  .container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Ensures content takes up the full height of the viewport */
+    color: white; /* Ensure text is readable */
+    text-align: center; /* Center-align text */
+    padding: 10px;
+  }
+
+  .satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .Parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  
+ #txt {
+    font-size: 2em;
+    margin: 45px;
+    max-width: 200px;
+  }
+
+ 
+
+
+  .Review-Text > p{
+    display: flex;
+    flex-direction: row !important;
+    color: white;
+    margin-right: 15px;
+  }
+
+  /* Product Cards */
+
+  .Product-Image{
+    height: 200%;
+  }
+
+  #Banner{
+    width: 200px;
+    height: 50px;
+  }
+
+  .Product-Container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+  flex-direction: column;
+}
+
+
+.product{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 200px;
+	height: 250px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
+}
+
+.Bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    width: 240px;
+    padding-bottom: 10px;
+    padding: 0;
+    margin: 0;
+ }
+
+
+ .Product-Name{
+    margin-right: 10px;
+ }
+
+ .Individual-Price{
+    margin-right: 10px !important;
+    padding: 10px 60px 10px 60px;
+  }
+
+ .Btn{
+   margin-left: 10px;
+   background-color: white !important;
+   color: black !important;
+ }
+
+ .Btn {
+    transition: transform 0.8s ease; /* Smooth transition effect */
+}
+
+.Btn:hover {
+    transform: scale(1.2); /* Increases the size of the image on hover */
+}
+
+
+
+
+.Image{
+    margin-right: 20px;
+}
+
+#Main-Image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 100%;
+    margin-top: 50px;
+  }
+
+  #Content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: white;
+    margin: 10px;
+    margin-left: 90px;
+}
+
+  #Content button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-top: 25px;
+    font-size: 1em;
+    background-color: black; /* Green background */
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+    min-width: 200px;
+    color: white;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+  }
+
+  #Content button:hover{
+    border-color: goldenrod;
+  }
+
+  #Content p{
+    margin-top: 25px;
+  }
+
+
+.Request {
+
+    text-align: left; /* Center-align text */
+    padding: 20px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 80%; /* Maximum width of the container */
+    margin: 20px; /* Margin outside the container */
+    box-sizing: border-box; /* Include padding in the width calculation */
+   
+  }
+
+  .Request h1 {
+    font-size: 2em;
+    margin-bottom: 15px; /* Margin below the heading */
+  }
+  
+  .Request p {
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Margin below the paragraph */
+  }
+  
+  .Request button{
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 1em;
+    background-color: rgb(46, 11, 11);
+    border-color: white;
+    border-style: solid;
+    border-width: medium;
+    color: white;
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer;
+  }
+
+  .Together{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+
+  .product-title{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .product-price{
+    margin-left: 60px;
+  }
+
+
+.product .product-title, .product .product-price{
+	font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.product img {
+	height: 100px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product2 img{
+  height: 400px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.product3 img{
+  height: 100px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+
+.Bottom a:link, .Bottom a:visited{
+	color: #ececec;
+	display: inline-block;
+	text-decoration: none;
+	background-color: red;
+	padding: 1.2rem 3rem;
+	border-radius: 1rem;
+	margin-top: 1rem;
+	font-size: 14px;
+	transition: all 0.2s;
+}
+
+.product a:hover{
+	transform: scale(1.1);
+}
+
+
+
+
+  /* End Product Cards */
+
+#Product1{
+  height: 200%;
+  width: 200%;
+  }
+
+  .Product-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+
+  .btn{
+    margin-left: 10px;
+  }
+
+
+
+  .Card-Container{
+    display: flex; 
+    background-color: rgb(46, 11, 11);
+  }
+
+
+  .horizontal-line {
+    border-bottom: 1px solid #ccc; /* Adjust color and thickness as needed */
+    margin: 20px 0; /* Optional: Adds space above and below the line */
+}
+
+
+
+
+
+  .Footer{
+    background-color: rgb(46, 11, 11);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    padding: 10px 0 10px 15px;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    color: white;
+  }
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5em;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 200%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+      margin-left: 10px;
+    }
+  
+    #pag {
+      font-size: 1em;
+    }
+  
+    #btn {
+     margin-left: 5px;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+  }
+
+  .Hero{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    flex-direction: row;
+    float: right;
+  }
+
+  .image {
+    max-width: 50%; /* Ensure the image doesn’t take up too much space */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .text {
+    max-width: 50%; /* Ensure the text container doesn’t take up too much space */
+    padding-left: 20px; /* Optional padding to create space between image and text */
+  }
+  
+  #Instagram{
+    color: white;
+    font-size: 25px;
+    margin-left: 0;
+    margin-right: 40px;
+    padding-left: 20px;
+  }
+    
+  #ShoppingCart{
+    color: white;
+    min-height: 15%;
+    min-width: 15%;
+    height: 15%;
+    width: 15%;
+  }
+
+  /* Container styling for demo purposes */
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/* Collections Page */
+
+.Collections-Card{
+display: flex;
+flex-direction: row;
+margin-right: 0;
+}
+
+.product-card {
+  width: 560px;
+  box-shadow: 0 2px 7px #dfdfdf;
+  margin: 50px 20px;
+  background: #fafafa;
+}
+
+
+.product-tumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 175px;
+  padding: 50px;
+  background: #f0f0f0;
+  width: 300px;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+
+.product-tumb img {
+  max-width: 900%;
+  max-height: 300%;
+}
+
+.product-details {
+  padding: 30px;
+  background: #f0f0f0;
+}
+
+.product-info{
+  display: flex;
+  flex-direction: row;
+}
+
+.product-catagory {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 18px;
+}
+
+.product-details h4 a {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #363636;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.product-details h4 a:hover {
+  color: #fbb72c;
+}
+
+.product-details p {
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 18px;
+  color: #999;
+}
+
+.product-bottom-details {
+  overflow: hidden;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.product-bottom-details div {
+  float: left;
+  width: 50%;
+}
+
+.product-price {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+.product-price small {
+  font-size: 80%;
+  font-weight: 400;
+  text-decoration: line-through;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.product-links {
+  text-align: right;
+}
+
+.product-links a {
+  display: inline-block;
+  margin-left: 5px;
+  color: #e1e1e1;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.product-links a:hover {
+  color: #fbb72c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* End Collections Page */
+
+
+
+
+/* Start About Page */
+
+
+.Story-Container{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  min-width: 50%;
+  margin-left: 10px;
+}
+
+
+
+/* End About Page */
+
+
+
+
+
+/* Start Contact Page */
+
+.contact{
+  position: relative;
+  min-height: 50vh;
+  padding: 50px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+.content{
+  margin-left: 70px;
+  max-width: 1000px !important;
+}
+
+.contact .content{
+  min-width: 500px;
+  text-align: center;
+}
+
+.contact .content h2{
+  font-size: 36px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.contact .content p
+{
+  font-weight: 300;
+  color: #fff;
+  font-size: 10px;
+}
+
+.Contact-Box{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 30px;
+}
+
+.Contact-Box .contactInfo
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.Contact-Box .contactInfo .box
+{
+ position: relative;
+ padding: 20px 0;
+ display: flex;
+}
+
+.Contact-Box .contactInfo .box .icon
+{
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+
+}
+
+.Contact-Box .contactInfo .box .text{
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.Contact-Box .contactInfo .box .text h3{
+   font-weight: 500;
+   color: white;
+}
+
+.contactForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  width: 350px;
+  padding: 50px;
+  padding-left: 40px;
+  background: #fff;
+  color: rgb(41, 1, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+  margin-left: 10px;
+}
+
+.contactForm h2
+{
+font-size: 30px;
+color: rgb(57, 1, 1);
+font-weight: 500;
+}
+
+.contactForm .inputBox{
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBox input,
+.contactForm .inputBox textarea{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+
+
+/* End Contact Page */
+
+
+
+
+/* Start Main Style Page */
+
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@800&display=swap');
+
+.stock {
+  position: relative;
+}
+
+.back {
+    position: absolute;
+    top: -6em;
+    left: 25%;
+    width: 45em;
+    height: 35em
+}
+
+.blob {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  animation: blobAngle 15s var(--delay) infinite linear;
+  filter: blur(2em);
+}
+.blob::after {
+  content: '';
+  position: absolute;
+  width: 8em;
+  height: 8em;
+  border-radius: 50%;
+  background-color: var(--color);
+  animation: blobMove 3s var(--delay2) infinite ease-in-out alternate;
+}
+
+@keyframes blobAngle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes blobMove {
+  from {
+    transform: translate(-50%, -150%);
+  }
+  to {
+    transform: translate(-50%, 50%);
+  }
+}
+
+.blob:nth-child(1) {
+  --delay: -0s;
+  --delay2: -0s;
+  --color: hsl(0, 71%, 16%);
+}
+
+.blob:nth-child(2) {
+  --delay: -3s;
+  --delay2: -0.6s;
+  --color: hsl(4, 72%, 27%);
+}
+
+.blob:nth-child(3) {
+  --delay: -6s;
+  --delay2: -1.2s;
+  --color: hsl(0, 75%, 21%);
+}
+
+.blob:nth-child(4) {
+  --delay: -9s;
+  --delay2: -1.8s;
+  --color: hsl(0, 99%, 51%);
+}
+
+.blob:nth-child(5) {
+  --delay: -12s;
+  --delay2: -2.4s;
+  --color: hsl(0, 63%, 17%);
+}
+
+.intro {
+  position: absolute;
+  top: 10em;
+  left: 35em;
+  height: 10%;
+  color: white;
+  padding: 1em;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+
+/* End Main Style Page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Font Awesome icon */
+.responsive-icon {
+    font-size: 5vw; /* Adjust size based on viewport width */
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+    .responsive-icon {
+        font-size: 3vw; /* Smaller icon size on larger screens */
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 50%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+}
+
+/* Media query for very large screens */
+@media (min-width: 1200px) {
+    .responsive-icon {
+        font-size: 2vw; /* Even smaller icon size on very large screens */
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contactForm{
+        margin-top: 25px;
+        width: 50%;
+        padding: 40px;
+        background: #fff;
+        color: rgb(41, 1, 1);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+      }
+}
+
+@media(max-width:430px){
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .Size{
+    
+        width: 100%;
+      }
+    
+      .Size2{
+      
+        width: 50%;
+      }
+
+}
+  
+  
+  @media(max-width:1024px){
+    .hamburger{
+      display: block;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+  
+    .hamburger.active .bar:nth-child(2){
+      opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+      transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+      transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .container{
+        max-width: 1224px;
+        width: 92%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .container2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+  
+    .nav-menu{
+      position: fixed;
+      z-index: 1;
+      left: -100%;
+      top: 100px;
+      gap: 0;
+      flex-direction: column;
+      background-color: #611515;
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+    }
+  
+    .nav-item{
+      margin: 16px 0;
+    }
+  
+    .nav-menu.active{
+      left: 0;
+    }
+  }
+
+  @media (max-width: 430px) {
+    /* Your CSS rules for the iPhone 14 Pro Max */
+
+    .nav-branding{
+            font-size: 20px;
+            margin: 0;
+            width: 150px;
+            margin-right: 100px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-left: 50px;
+      margin-top: 25px;
+      width: 200%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    .Main-Box{
+      position: relative;
+      color: white;
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+      flex-direction: row !important;
+    }
+
+    .navbar{
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      Image{
+        margin-left: 250px;
+      }
+}
+
+/* iPhone SE: Width 375 pixels */
+@media (max-width: 375px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 0;
+        width: 150px;
+        margin-right: 100px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    #Content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        margin: 0;
+        margin-left: 35px;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 50%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
+/* iPhone XR: Width 414 pixels */
+@media (max-width: 414px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 0;
+        width: 150px;
+        margin-right: 100px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 50%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+        #Content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            margin: 0;
+            margin-left: 45px;
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
+/* iPhone 12: Width 390 pixels */
+@media (max-width: 390px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 0;
+        width: 150px;
+        margin-right: 45px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 50%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
+/* iPhone 14: Width 430 pixels */
+@media (max-width: 430px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 0;
+        width: 150px;
+        margin-right: 100px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
+/* Pixel 7: Width 412 pixels */
+@media (max-width: 412px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 0;
+        width: 150px;
+        margin-right: 45px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 200%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
+/* Samsung Galaxy: Width 360 pixels */
+@media (max-width: 360px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 10px;
+        width: 250px;
+        margin-right: 135px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 50%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    #Content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        margin: 10px;
+        margin-left: 110px;
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
+/* Samsung Galaxy S20 Ultra: Width 412 pixels */
+@media (max-width: 412px) {
+    .nav-branding {
+        font-size: 20px;
+        margin: 0;
+        width: 150px;
+        margin-right: 100px;
+    }
+
+    .Size{
+    
+      width: 100%;
+    }
+  
+    .Size2{
+    
+      width: 50%;
+    }
+
+    .contactForm{
+      margin-top: 25px;
+      width: 200%;
+      padding: 40px;
+      background: #fff;
+      color: rgb(41, 1, 1);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    }
+
+    .navbar {
+        min-height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    Image {
+        margin-left: 250px;
+    }
+}
+
