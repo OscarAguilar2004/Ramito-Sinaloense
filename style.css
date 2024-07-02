@@ -80,6 +80,7 @@
   .grid-item video{
     height: 500px;
     width: 300px;
+    margin-left: 150px;
     border-color: white;
     border-style: solid;
   }
@@ -366,7 +367,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -25px;
+  margin-left: -150px;
   margin-top: 25px;
 }
 
@@ -839,6 +840,18 @@ margin-right: 0;
   justify-content: start;
   color: white;
   margin-left: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.product-info2{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color: white;
+  margin-left: 150px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .product-catagory {
