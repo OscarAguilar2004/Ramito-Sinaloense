@@ -5,7 +5,7 @@
   }
 
   body{
-    background-color: rgb(46, 11, 11);
+    background-color: black;
   }
   
   li{
@@ -25,7 +25,7 @@
   }
 
   #About{
-    background-color: rgb(46, 11, 11);
+    background-color: black;
     margin-top: 15px;
     margin-bottom: 15px;
   }
@@ -59,7 +59,7 @@
 
 
   header{
-    background-color: rgb(46, 11, 11);
+    background-color: black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
     width: 100%;
   }
@@ -67,30 +67,63 @@
   .flex-column{
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    align-items: center;
     color: white;
+    width: 100%;
   }
 
   .product-info{
     margin-left: 100px;
     margin-top: 5px;
     margin-bottom: 20px;
+
+  }
+
+  .text-container{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+  }
+
+
+
+  .Story-Container{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Story-Container img{
+      height: auto;
+      width: 70%;
+  }
+
+  .text-block{
+    font-size: 20px;
+    color: white;
+    width: 450px;
+  }
+
+  .Main-text-block{
+    margin-bottom: 20px;
+    color: white;
+    font-size: 35px;
+  }
+
+  
+  
+
+  .grid-item img{
+    height: 500px;
+    width: 300px;
+    margin-left: 150px;
   }
 
   .grid-item video{
     height: 500px;
     width: 300px;
-   
-    border-color: white;
-    border-style: solid;
-  }
-
-  .grid-item img{
-    height: 500px;
-    width: 300px;
-   
-    border-color: white;
-    border-style: solid;
+    margin-left: 150px;
+    overflow: hidden; /* Ensures the rounded corners are visible */
+    border-radius: 15%; /* Makes the corners of the container round */
   }
 
 
@@ -99,7 +132,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: rgb(46, 11, 11);
+    background-color: black;
     color: white;
     padding: 25px;
     margin: 25px;
@@ -112,26 +145,34 @@
   align-items: center;
 }
 
-  .Logo{
-    height: 10%;
-    width: 15%;
-    padding: 20px;
-    background-color: rgb(46, 11, 11);
+.Contact-Container img{
+  height: auto;
+  width: 35%;
+  margin: 20px;
+  padding: 20px;
+  background-color: black;
+}
+
+
+
+  .Hero img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1500px;
+    height: 900px;
   }
 
   .Desc{
-    background-color: rgb(46, 11, 11);
+    background-color: black;
     color: white;
-    font-size: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 30px;
     margin: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
     width: 95%;
-
   }
 
 
@@ -208,7 +249,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 100px;
   }
   
   .content-wrapper {
@@ -220,19 +263,43 @@
   
   .navbar{
     min-height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+  .More{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 150px;
+  }
+
+
+  .Extra-Product{
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 18, 18);
+    padding: 20px;
+    width: 175px;
+  }
+
   .Rose{
     padding-bottom: 10px;
   }
+
+  .Logo img{
+    margin-left: 10px;
+    padding: 0;
+    width: 75px;
+    height: 75px;
+
+  }
   
   .nav-branding{
-    font-size: 20px;
-    margin: 25px;
-    width: 300px;
+   height: auto;
+   width: 25%;
+   padding-bottom: 30px;
   }
 
 
@@ -245,7 +312,7 @@
   
   .nav-link{
     transition: 0.3s ease-out;
-    margin-right: 50px;
+    margin-right: 60px;
   }
   
   .nav-link:hover{
@@ -367,7 +434,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: -150px;
+  margin-left: -10px;
   margin-top: 25px;
 }
 
@@ -517,7 +584,7 @@
     padding: 10px 20px;
     margin-right: 10px;
     font-size: 1em;
-    background-color: rgb(46, 11, 11);
+    background-color: black;
     border-color: white;
     border-style: solid;
     border-width: medium;
@@ -617,7 +684,7 @@
 
   .Card-Container{
     display: flex; 
-    background-color: rgb(46, 11, 11);
+    background-color: black;
   }
 
 
@@ -675,7 +742,7 @@
 
 
   .Footer{
-    background-color: rgb(46, 11, 11);
+    background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -820,11 +887,11 @@ margin-right: 0;
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: rgb(46, 11, 11);
+  grid-template-columns: auto auto auto !important;
+  background-color: black;
 }
 .grid-item {
-  background-color: rgb(46, 11, 11);
+  background-color: black;
   font-size: 30px;
   text-align: center;
 }
@@ -840,7 +907,7 @@ margin-right: 0;
   justify-content: start;
   color: white;
   margin-left: 150px;
-  padding-top: 25px;
+  margin-right: 43px;
   padding-bottom: 25px;
 }
 
@@ -849,9 +916,9 @@ margin-right: 0;
   flex-direction: row;
   justify-content: start;
   color: white;
-  margin-left: 150px;
   padding-top: 5px;
   padding-bottom: 5px;
+  width: 120px;
 }
 
 .product-catagory {
@@ -945,17 +1012,18 @@ margin-right: 0;
 
 
 .Story-Container{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  padding-bottom: 25px;
-  padding-top: 25px;
-  color: white;
   display: flex;
-  flex-direction: row;
-  align-content: center;
+  align-items: center;
   justify-content: center;
-  min-width: 50%;
-  margin-left: 10px;
+}
+
+
+.Story-Container img{
+  height: auto;
+  width: 30%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 25px 0 25px 0;
 }
 
 
@@ -999,7 +1067,12 @@ margin-right: 0;
 {
   font-weight: 300;
   color: #fff;
-  font-size: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+
+.contact .content .number p{
+  color:rgb(255, 179, 0);
 }
 
 .Contact-Box{
@@ -1033,7 +1106,7 @@ margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  border-radius: 15%;
   font-size: 22px;
 
 }
@@ -1125,7 +1198,7 @@ font-weight: 500;
   position: absolute;
   width: 8em;
   height: 8em;
-  border-radius: 50%;
+  border-radius: 15%;
   background-color: var(--color);
   animation: blobMove 3s var(--delay2) infinite ease-in-out alternate;
 }
@@ -1313,69 +1386,172 @@ font-weight: 500;
       }
 }
 
-@media(max-width:430px){
+@media (max-width: 430px) {
+  /* Your CSS rules for the iPhone 14 Pro Max */
 
-    .container2{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
 
-      .grid-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 columns */
-        grid-template-rows: repeat(12, auto); /* 6 rows */
-    }
+  .Story-Container{
+    display: flex;
+    flex-direction: column;
+  }
 
-    .item{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: start;
-      margin-left: 20px;
-      text-align: center;
-      padding: 10px;
-      margin-left: 10px;
-    }
+  .Story-Container img{
+    height: auto;
+    width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 25px 0 25px 0;
+  }
 
-    .grid-item img{
-      height: 250px;
-      width: 150px;
-    }
+  .nav-link{
+    transition: 0.3s ease-out;
+    margin-right: 250px;
+  }
 
-    .grid-item video{
-      height: 250px;
-      width: 150px;
-      border-color: white;
-      border-style: solid;
-    }
+  .More{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
 
-      .Size{
-    
-        width: 100%;
-      }
-    
-      .Size2{
-      
-        width: 50%;
-      }
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 200px;
+  }
+
+
+
+  .nav-menu{
+    position: fixed;
+    z-index: 1;
+    left: -100%;
+    top: 250px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #464646;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item{
+    margin: 16px 0;
+  }
+
+  .nav-menu.active{
+    left: 0;
+    top: 180px;
+  }
+
+
+
+   .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+ .nav-branding{
+          font-size: 20px;
+          margin: 0;
+          width: 150px;
+          margin-right: 100px;
+  }
+
+.grid-item img{
+  height: auto;
+  width: 75%;
+  margin: 0;
+}
+
+.grid-item video{
+  height: 200px;
+  width: 150px;
+  margin: 0;
+  overflow: hidden; /* Ensures the rounded corners are visible */
+  border-radius: 15%; /* Makes the corners of the container round */
 
 }
-  
+
+  .contactForm{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 200%;
+    padding: 40px;
+    background: #fff;
+    color: rgb(41, 1, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+  }
+
+  .Main-Box{
+    position: relative;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+  }
+
+
+
+.navbar{
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    Image{
+      margin-left: 250px;
+    }
+
+
+  .container2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+ .hamburger{
+    display: block;
+  }
+
+  .Hero img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr) !important; /* 2 columns */
+    grid-template-rows: repeat(12, auto) !important; /* 6 rows */
+}
+
+.product-info{
+display: flex;
+flex-direction: row;
+justify-content: start;
+color: white;
+margin-left: 20px;
+}
+
+}
   
   @media(max-width:1024px){
     .hamburger{
       display: block;
-    }
-
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
     }
   
     .hamburger.active .bar:nth-child(2){
@@ -1407,14 +1583,14 @@ font-weight: 500;
     .nav-menu{
       position: fixed;
       z-index: 1;
-      left: -100%;
-      top: 100px;
+      left: 0;
+      top: -200px;
       gap: 0;
       flex-direction: column;
-      background-color: #611515;
+      background-color: #651616;
       width: 100%;
       text-align: center;
-      transition: 0.3s;
+      transition: 0.8s;
     }
   
     .nav-item{
@@ -1423,20 +1599,16 @@ font-weight: 500;
   
     .nav-menu.active{
       left: 0;
+      top: 180px;
     }
   }
 
-  @media (max-width: 430px) {
-    /* Your CSS rules for the iPhone 14 Pro Max */
+  
 
-    .nav-branding{
-            font-size: 20px;
-            margin: 0;
-            width: 150px;
-            margin-right: 100px;
-    }
+/* iPhone SE: Width 375 pixels */
+@media (max-width: 375px) {
 
-    .item {
+     .item {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1447,40 +1619,27 @@ font-weight: 500;
       margin-left: 10px;
   }
 
-  .product-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    color: white;
-    margin-left: 20px;
-  }
-
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
-      grid-template-rows: repeat(12, auto); /* 6 rows */
-  }
+   .nav-branding{
+            font-size: 20px;
+            margin: 0;
+            width: 150px;
+            margin-right: 100px;
+    }
 
   .grid-item img{
-    height: 250px;
-    width: 150px;
+    height: auto;
+    width: 75%;
+    margin: 0;
   }
 
   .grid-item video{
-    height: 250px;
-    width: 150px;
-    border-color: white;
-    border-style: solid;
+    height: auto;
+    width: 75%;
+    margin: 0;
+    overflow: hidden; /* Ensures the rounded corners are visible */
+    border-radius: 15%; /* Makes the corners of the container round */
+    
   }
-
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
-    }
 
     .contactForm{
       margin-left: 50px;
@@ -1501,7 +1660,9 @@ font-weight: 500;
       flex-direction: row !important;
     }
 
-    .navbar{
+
+
+  .navbar{
         min-height: 70px;
         display: flex;
         justify-content: space-between;
@@ -1511,247 +1672,206 @@ font-weight: 500;
       Image{
         margin-left: 250px;
       }
-}
 
-/* iPhone SE: Width 375 pixels */
-@media (max-width: 375px) {
-    .nav-branding {
-        font-size: 20px;
-        margin: 0;
-        width: 150px;
-        margin-right: 100px;
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+   .hamburger{
+      display: block;
     }
 
-    .product-info{
+    .Hero img{
       display: flex;
-      flex-direction: row;
-      justify-content: start;
-      color: white;
-      margin-left: 20px;
-    }
-
-    .item {
-      display: flex;
-      flex-direction: column;
       align-items: center;
-      text-align: center;
-      padding: 10px;
-      margin-left: 10px;
-  }
+      justify-content: center;
+      width: 100%;
+      height: 75%;
+    }
 
     .grid-container {
       grid-template-columns: repeat(2, 1fr); /* 2 columns */
       grid-template-rows: repeat(12, auto); /* 6 rows */
   }
 
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
-    }
-
-    #Content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        color: white;
-        margin: 0;
-        margin-left: 35px;
-    }
-
-    .contactForm{
-      margin-top: 25px;
-      width: 50%;
-      padding: 40px;
-      background: #fff;
-      color: rgb(41, 1, 1);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
-    }
-
-    .navbar {
-        min-height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    Image {
-        margin-left: 250px;
-    }
+.product-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color: white;
+  margin-left: 20px;
 }
+
+}
+
+
 
 /* iPhone XR: Width 414 pixels */
 @media (max-width: 414px) {
-    .nav-branding {
-        font-size: 20px;
-        margin: 0;
-        width: 150px;
-        margin-right: 80px;
-    }
+
+  .Story-Container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Story-Container img{
+    height: auto;
+    width: 70%;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 25px 0 25px 0;
+  }
+
+  .nav-link{
+    transition: 0.3s ease-out;
+    margin-right: 60px;
+  }
+
+  .More{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 200px;
+  }
 
 
-    .grid-item video{
-      height: 250px;
-      width: 150px;
-      border-color: white;
-      border-style: solid;
-    }
 
-    .product-info{
-      display: flex;
-      flex-direction: row;
-      justify-content: start;
-      color: white;
-      margin-left: 20px;
-    }
-
-    .grid-item img{
-      height: 250px;
-      width: 150px;
-    }
-
-    .grid-item video{
-      height: 250px;
-      width: 150px;
-      border-color: white;
-      border-style: solid;
-    }
-
-    .item {
+     .item {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: start;
+      margin-left: 20px;
       text-align: center;
       padding: 10px;
       margin-left: 10px;
   }
 
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
-      grid-template-rows: repeat(12, auto); /* 6 rows */
-  }
-
-  .product-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    color: white;
-    margin-left: 20px;
-  }
-
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
-    }
-
-    .contactForm{
-      margin-top: 25px;
-      width: 50%;
-      padding: 40px;
-      background: #fff;
-      color: rgb(41, 1, 1);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
-    }
-
-        #Content {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            color: white;
+   .nav-branding{
+            font-size: 20px;
             margin: 0;
-            margin-left: 45px;
+            width: 150px;
+            margin-right: 100px;
     }
-
-    .navbar {
-        min-height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    Image {
-        margin-left: 250px;
-    }
-}
-
-/* iPhone 12: Width 390 pixels */
-@media (max-width: 390px) {
-    .nav-branding {
-        font-size: 20px;
-        margin: 0;
-        width: 150px;
-        margin-right: 45px;
-    }
-
-    .item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-      margin-left: 10px;
-  }
-
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
-      grid-template-rows: repeat(12, auto); /* 6 rows */
-  }
 
   .grid-item img{
-    height: 250px;
-    width: 150px;
+    height: auto;
+    width: 75%;
+    margin: 0;
+
   }
 
   .grid-item video{
-    height: 250px;
-    width: 150px;
-    border-color: white;
-    border-style: solid;
+    height: auto;
+    width: 75%;
+    margin: 0;
+    overflow: hidden; /* Ensures the rounded corners are visible */
+    border-radius: 15%; /* Makes the corners of the container round */
+   
   }
 
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
-    }
-
     .contactForm{
+      margin-left: 50px;
       margin-top: 25px;
-      width: 50%;
+      width: 200%;
       padding: 40px;
       background: #fff;
       color: rgb(41, 1, 1);
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
     }
 
-    .navbar {
+    .Main-Box{
+      position: relative;
+      color: white;
+      display: flex;  
+      justify-content: center;
+      align-items: center;
+      flex-direction: row !important;
+    }
+
+
+
+  .navbar{
         min-height: 70px;
         display: flex;
         justify-content: space-between;
         align-items: center;
+      }
+
+      Image{
+        margin-left: 250px;
+      }
+
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+   .hamburger{
+      display: block;
     }
 
-    Image {
-        margin-left: 250px;
+    .Hero img{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 75%;
     }
+
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns */
+      grid-template-rows: repeat(12, auto); /* 6 rows */
+  }
+
+.product-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  color: white;
+  margin-left: 20px;
 }
 
-/* iPhone 14: Width 430 pixels */
-@media (max-width: 430px) {
+
+}
+
+
+/* iPhone 12: Width 390 pixels */
+@media (max-width: 390px) {
+
+  .nav-link{
+    transition: 0.3s ease-out;
+    margin-right: 250px;
+  }
+
+  .Story-Container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .More{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+
+
 
   .item {
     display: flex;
@@ -1764,100 +1884,244 @@ font-weight: 500;
     margin-left: 10px;
 }
 
-.grid-item video{
-  height: 250px;
-  width: 150px;
-  border-color: white;
-  border-style: solid;
-}
-
-
-
-.product-info{
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  color: white;
-  margin-left: 20px;
-}
-
-    .nav-branding {
-        font-size: 20px;
-        margin: 0;
-        width: 150px;
-        margin-right: 100px;
-    }
-
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
-      grid-template-rows: repeat(12, auto); /* 6 rows */
+ .nav-branding{
+          font-size: 20px;
+          margin: 0;
+          width: 150px;
+          margin-right: 100px;
   }
 
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
-    }
-
-    .navbar {
-        min-height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    Image {
-        margin-left: 250px;
-    }
+.grid-item img{
+  height: auto;
+  width: 75%;
+  margin: 0;
 }
+
+.grid-item video{
+  height: auto;
+  width: 75%;
+  margin: 0;
+  overflow: hidden; /* Ensures the rounded corners are visible */
+  border-radius: 15%; /* Makes the corners of the container round */
+
+}
+
+  .contactForm{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 200%;
+    padding: 40px;
+    background: #fff;
+    color: rgb(41, 1, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+  }
+
+  .Main-Box{
+    position: relative;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+  }
+
+
+
+.navbar{
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    Image{
+      margin-left: 250px;
+    }
+
+
+  .container2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+ .hamburger{
+    display: block;
+  }
+
+  .Hero img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(12, auto); /* 6 rows */
+}
+
+.product-info{
+display: flex;
+flex-direction: row;
+justify-content: start;
+color: white;
+margin-left: 20px;
+}
+ 
+}
+
+
+
+
 
 /* Pixel 7: Width 412 pixels */
 @media (max-width: 412px) {
-    .nav-branding {
-        font-size: 20px;
-        margin: 0;
-        width: 150px;
-        margin-right: 45px;
-    }
 
-    .grid-container {
-      grid-template-columns: repeat(2, 1fr); /* 2 columns */
-      grid-template-rows: repeat(12, auto); /* 6 rows */
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: 200px;
+    margin-right: 5px;
   }
 
-    .Size{
-    
-      width: 100%;
-    }
-  
-    .Size2{
-    
-      width: 50%;
+  .Story-Container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text-block{
+
+      font-size: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      width: 200px;
+      margin-bottom: 25px;
+  }
+
+  .Main-text-block{
+      font-size: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      align-content: center;
+      margin-bottom: 10px;
+  }
+
+  .More{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+  }
+
+
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: 20px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+ .nav-branding{
+          font-size: 20px;
+          margin: 0;
+          width: 150px;
+          margin-right: 100px;
+  }
+
+.grid-item img{
+  height: auto;
+  width: 75%;
+  margin: 0;
+}
+
+.grid-item video{
+  height: auto;
+  width: 75%;
+  margin: 0;
+  overflow: hidden; /* Ensures the rounded corners are visible */
+  border-radius: 15%; /* Makes the corners of the container round */
+}
+
+  .contactForm{
+    margin-left: 50px;
+    margin-top: 25px;
+    width: 200%;
+    padding: 40px;
+    background: #fff;
+    color: rgb(41, 1, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+  }
+
+  .Main-Box{
+    position: relative;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: row !important;
+  }
+
+
+
+.navbar{
+      min-height: 70px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
     }
 
-    .contactForm{
-      margin-top: 25px;
-      width: 200%;
-      padding: 40px;
-      background: #fff;
-      color: rgb(41, 1, 1);
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow properties */
+    Image{
+      margin-left: 250px;
     }
 
-    .navbar {
-        min-height: 70px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+
+  .container2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
 
-    Image {
-        margin-left: 250px;
-    }
+ .hamburger{
+    display: block;
+  }
+
+  .Hero img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75%;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(12, auto); /* 6 rows */
+}
+
+.product-info{
+display: flex;
+flex-direction: row;
+justify-content: start;
+color: white;
+margin-right: 20px;
+font-size: 20px;
+
+}
+
 }
 
 /* Samsung Galaxy: Width 360 pixels */
