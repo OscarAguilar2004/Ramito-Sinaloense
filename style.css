@@ -109,6 +109,18 @@
     font-size: 35px;
   }
 
+
+  .Banner{
+    background-color:hsl(0, 100%, 11%);
+    width: 100%;
+    height: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+  }
+
   
   
 
@@ -385,11 +397,6 @@
 
   .Product-Image{
     height: 200%;
-  }
-
-  #Banner{
-    width: 200px;
-    height: 50px;
   }
 
   .Product-Container{
