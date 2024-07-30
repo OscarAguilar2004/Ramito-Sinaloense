@@ -8,18 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    
+
     <title>Main Page</title>
 </head>
 
 <body>
 
 
-    
-    <div class="Banner">
-
-      <h4>FOLLOW MY INSTAGRAM TO STAY UPDATED</h4>
-
-    </div>
+  
 
     <header>
         <div class="container"> 
@@ -60,6 +57,8 @@
 
     <div class="Desc">
 
+      
+
       <h1></h1>
       <div class="price-container">
       <div class="Price-row">
@@ -82,28 +81,80 @@
 
       <div class="grid-container"> 
         <div class="flex-column">
-         <div class="item">  <div class="grid-item"> <img src="IMAGES/RED ROSES.png" height="500px" width="300px"> </div></div>
-         <h1 class="product-info"></h1>
+         <div class="item">  <div class="grid-item"> <video width="300px" height="500px" autoplay muted> <source src="Video/Roses.mp4"> </video> </div></div>
+         <div class="dropdown">
+          <button onclick="toggleDropdown('dropdown1')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Red Roses</button>
+          <div id="dropdown1" class="dropdown-content">
+            <a href="#">25 Roses $60</a>
+            <a href="#">50 Roses $140</a>
+            <a href="#">75 Roses $190</a>
+          <a href="#">100 Roses $280</a>
+          </div>
+        </div>
         </div>
         <div class="flex-column">
-          <div class="item">  <div class="grid-item"> <img src="Images/WHITE ROSES.png" height="500px" width="300px"> </div></div>
-          <h1 class="product-info"></h1>
+          <div class="item">  <div class="grid-item"> <video width="300px" height="500px" autoplay muted> <source src="Video/White.mp4"> </video> </div></div>
+          <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown2')" class="dropbtn" aria-haspopup="true" aria-expanded="false">White Roses</button>
+            <div id="dropdown2" class="dropdown-content">
+              
+            <a href="#">25 Roses $60</a>
+            <a href="#">50 Roses $140</a>
+            <a href="#">75 Roses $190</a>
+          <a href="#">100 Roses $280</a>
+            </div>
+          </div>
         </div>
         <div class="flex-column">
-          <div class="item">  <div class="grid-item">  <img src="Images/PINK ROSES.png" height="500px" width="300px"> </div></div>
-          <h1 class="product-info"></h1>
+          <div class="item">  <div class="grid-item"> <video width="300px" height="500px" autoplay muted> <source src="Video/Pastel.mp4"> </video> </div></div>
+          <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown3')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Pink Roses</button>
+            <div id="dropdown3" class="dropdown-content">
+              
+            <a href="#">25 Roses $60</a>
+            <a href="#">50 Roses $140</a>
+            <a href="#">75 Roses $190</a>
+          <a href="#">100 Roses $280</a>
+            </div>
+          </div>
         </div>
         <div class="flex-column">
-          <div class="item">  <div class="grid-item">  <img src="Images/SUNFLOWER.png" height="500px" width="300px"> </div></div>
-          <h1 class="product-info"></h1>
+          <div class="item">  <div class="grid-item"> <video width="300px" height="500px" autoplay muted> <source src="Video/RPReplay_Final1716851221.mp4"> </video> </div></div>
+          <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown4')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Sunflowers</button>
+            <div id="dropdown4" class="dropdown-content">
+              
+            <a href="#">25 Roses $60</a>
+            <a href="#">50 Roses $140</a>
+            <a href="#">75 Roses $190</a>
+          <a href="#">100 Roses $280</a>
+            </div>
+          </div>
         </div>
         <div class="flex-column">
-          <div class="item">  <div class="grid-item">  <img src="IMAGES/arrangement.png" height="500px" width="300px"> </div></div>
-          <h1 class="product-info"></h1>
+          <div class="item">  <div class="grid-item"> <video width="300px" height="500px" autoplay muted> <source src="Video/Arrangement.mp4"> </video> </div></div>
+          <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown5')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Arrangement</button>
+            <div id="dropdown5" class="dropdown-content">   
+            <a href="#">25 Roses $60</a>
+            <a href="#">50 Roses $140</a>
+            <a href="#">75 Roses $190</a>
+          <a href="#">100 Roses $280</a>
+            </div>
+          </div>
         </div> 
         <div class="flex-column">
-          <div class="item">  <div class="grid-item"> <img src="Images/money.png" height="500px" width="300px"> </div></div>
-          <h1 class="product-info"></h1>
+          <div class="item">  <div class="grid-item"> <video width="300px" height="500px" autoplay muted> <source src="Video/Cash.mp4"> </video> </div></div>
+          <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown6')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Money Bouquet</button>
+            <div id="dropdown6" class="dropdown-content">
+              
+            <a href="#">Plush Bear $10</a>
+            <a href="#">50 Roses $140</a>
+            <a href="#">75 Roses $190</a>
+             <a href="#">100 Roses $280</a>
+            </div>
+          </div>
         </div>
       </div> 
 
@@ -136,28 +187,68 @@
         <div class="grid-container"> 
         <div class="flex-column">
           <div class="item">  <div class="grid-item"> <img src="Images/LARGE CROWN.png" height="500px" width="300px"> </div></div>
-          <h1 class="product-info"></h1>
+          <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown7')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Large Crown</button>
+            <div id="dropdown7" class="dropdown-content">
+              
+            <a href="#">Big Crowns $6</a>
+          
+            </div>
+          </div>
          </div>
          <div class="flex-column">
            <div class="item">  <div class="grid-item"> <img src="Images/SMALL CROWN.png" height="500px" width="300px"> </div></div>
-           <h1 class="product-info"></h1>
+           <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown8')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Small Crown</button>
+            <div id="dropdown8" class="dropdown-content">   
+            <a href="#">Small Crowns $3</a>
+            
+            </div>
+          </div>
          </div>
          <div class="flex-column">
            <div class="item">  <div class="grid-item"> <img src="Images/TOPPER.png" height="500px" width="300px"> </div></div>
-           <h1 class="product-info"></h1>
+           <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown9')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Topper</button>
+            <div id="dropdown9" class="dropdown-content">
+              
+            <a href="#">Toppers $6</a>
+           
+            </div>
+          </div>
          </div>
          <div class="flex-column">
            <div class="item">  <div class="grid-item"> <img src="Images/BEAR.png" height="500px" width="300px"> </div></div>
-           <h1 class="product-info"></h1>
+           <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown10')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Bear</button>
+            <div id="dropdown10" class="dropdown-content">
+              
+            <a href="#">Plush Bear $10</a>
+          
+            </div>
+          </div>
          </div>
          <div class="flex-column">
-           <div class="item">  <div class="grid-item"> <img src="IMAGES/Ribbon.png" height="500px" width="300px"> </div></div>
-           <h1 class="product-info"></h1>
+           <div class="item">  <div class="grid-item"> <img src="Images/RIBBON.png" height="500px" width="300px"> </div></div>
+           <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown11')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Ribbon</button>
+            <div id="dropdown11" class="dropdown-content">
+              
+            <a href="#">Ribbon Banner $5</a>
+          
+            </div>
+          </div>
          </div>
          <div class="flex-column">
            <div class="item">  <div class="grid-item"> <img src="Images/CUTE BOW.png" height="500px" width="300px"></div></div>
-           <h1 class="product-info"></h1>
-         </div> 
+           <div class="dropdown">
+            <button onclick="toggleDropdown('dropdown12')" class="dropbtn" aria-haspopup="true" aria-expanded="false">Cute Bow</button>
+            <div id="dropdown12" class="dropdown-content">
+              
+            <a href="#">Cute Bow $3</a>
+      
+            </div>
+          </div>
          </div>  
     </section>
 
@@ -287,7 +378,13 @@
     </section>
   </section>
 
+<!--
+      <div class="Footer">
+        <h4>Make Sure to Follow me on Instagram to stay updated on new selections and more</h4> 
+        <a href="https://www.instagram.com/ramitosinaloense/"><i class="fa-brands fa-instagram" id="Instagram"></i></a>
+      </div>
 
+-->
       
 
 
@@ -296,5 +393,7 @@
     
    
        <script src="script.js"></script>
+    
+
 </body>
 </html>
